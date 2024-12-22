@@ -3,15 +3,16 @@ import styled from "styled-components";
 
 type PropsType = {
   title: string;
+  link?:string
 };
 
 export const LinkBlock = (props: PropsType) => {
-  const { title } = props;
+  const { title ,link} = props;
 
   return (
     <LinkWrapper>
       <Link href={`/${title.toLowerCase()}`}>
-        <h2>{title} →</h2>
+        <h2>{link} →</h2>
       </Link>
     </LinkWrapper>
   );

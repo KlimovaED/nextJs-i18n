@@ -15,6 +15,14 @@ export const ru = {
       }
     },
   },
+    navBar:{
+      characters:'Персонажи',
+        locations:'Локации',
+        episodes:'Эпизоды',
+        test:'Тест',
+        private:'Private'
+
+    },
   charactersPage: {
     title: "Страница с персонажами",
   },

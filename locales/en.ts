@@ -14,6 +14,14 @@ export const en: LocaleType = {
       }
     },
   },
+    navBar:{
+        characters:'Characters',
+        locations:'Locations',
+        episodes:'Episodes',
+        test:'Test',
+        private:'Private'
+
+    },
   charactersPage: {
     title: "Character page",
   },

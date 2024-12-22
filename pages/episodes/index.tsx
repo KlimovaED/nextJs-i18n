@@ -9,7 +9,7 @@ import { GetServerSideProps } from "next";
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   res.setHeader("Cache-Control", "public, s-maxage=10, stale-while-revalidate=59");
 
-  const isAuth = false;
+  const isAuth = true;
 
   const episodes = await API.rickAndMorty.getEpisodes();
 
